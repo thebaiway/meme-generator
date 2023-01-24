@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './Components/Header.js'
+import Meme from './Components/Meme.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>Testing,Testing 1-2-3! Testing 1,2,3.</h1>
+      <Header />
+      <Meme />
     </div>
   );
 }
