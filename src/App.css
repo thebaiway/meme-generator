@@ -63,3 +63,12 @@
     cursor: pointer;
 }
 
+.meme--img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.meme--img {
+   max-width: 100%;
+}
+
