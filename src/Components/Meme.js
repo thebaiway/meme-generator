@@ -21,7 +21,7 @@ export default function Meme() {
             </div>
                 <button onClick = {getMemeImage} className = "meme--button">Get a new meme image 🖼️</button>
                 <div className = "meme--img_div">
-                <img src = {memeImage} alt = "" className = "meme--img"></img>
+                <img src = {memeImage} alt = " " className = "meme--img"></img>
                 </div>
         </div>
     )
