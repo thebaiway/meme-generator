@@ -9,7 +9,7 @@ export default function Meme() {
         const memesArray = memesData.data.memes
         const randomNumber = Math.floor(Math.random () * memesArray.length)
         
-        setMemeImage(prevMemeImage => prevMemeImage = memesArray[randomNumber].url)
+        setMemeImage(prevMemeImage => prevMemeImage = memesArray[randomNumber].url )
      
     }
 
